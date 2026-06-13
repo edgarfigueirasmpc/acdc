@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Casa dos Caretas · Gastrobar en Cea, Ourense</title>
+    <meta
+      name="description"
+      content="Gastrobar y restaurante en San Cristovo de Cea. Menú del día, parrilla, carta y cocina con producto de proximidad. Reserva tu mesa."
+    />
+    <meta property="og:title" content="A Casa dos Caretas" />
+    <meta
+      property="og:description"
+      content="Gastrobar moderno en el corazón de Cea, Ourense."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://acasadoscaretas.com" />
+    <link rel="icon" href="img/logo-acdc.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#" class="logo" aria-label="A Casa dos Caretas — Inicio">
+          <img src="img/logo-acdc.png" alt="A Casa dos Caretas" />
+        </a>
+        <button
+          class="menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="#inicio" class="nav__link is-active">Inicio</a>
+          <a href="#nosotros" class="nav__link">Nosotros</a>
+          <a href="#menus" class="nav__link">Menús</a>
+          <a href="#carta" class="nav__link">Carta</a>
+          <a href="#contacto" class="nav__link nav__cta">Reservar</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="inicio" class="hero">
+        <div class="hero__bg" role="img" aria-label="Interior del restaurante"></div>
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+          <span class="hero__badge">Gastrobar · Cea, Ourense</span>
+          <h1 class="hero__title">A Casa dos Caretas</h1>
+          <p class="hero__lead">
+            Cocina de proximidad, ambiente acogedor y el sabor del pan artesano
+            de Cea. Un restaurante moderno con alma de pueblo.
+          </p>
+          <div class="hero__actions">
+            <a href="#menus" class="btn btn--primary">Ver menús</a>
+            <a href="tel:640966805" class="btn btn--ghost">640 966 805</a>
+          </div>
+          <div class="hero__meta">
+            <div class="meta-item">
+              <div class="meta-item__label">Dirección</div>
+              <div class="meta-item__value">
+                Rúa España 43 · 32130 San Cristovo de Cea
+              </div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-item__label">Comedor</div>
+              <div class="meta-item__value">
+                13:00–16:00 y 19:30–22:00/23:00
+              </div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-item__label">Instagram</div>
+              <div class="meta-item__value">
+                <a href="https://www.instagram.com/acasadoscaretas/" target="_blank" rel="noopener">@acasadoscaretas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Horarios -->
+      <section class="section" aria-labelledby="horarios-title">
+        <div class="container">
+          <span class="section-label">Horario</span>
+          <h2 id="horarios-title" class="section-title">Cuándo visitarnos</h2>
+          <p class="section-subtitle">
+            Bar y comedor abiertos de lunes a domingo. Consulta los horarios de
+            comedor para reservar tu mesa.
+          </p>
+          <div class="schedule-grid">
+            <article class="schedule-card">
+              <h3 class="schedule-card__day">Lunes – Jueves</h3>
+              <p class="schedule-card__hours">Bar: 7:30 – 23:00</p>
+              <p class="schedule-card__dining">Comedor: 13:00–16:00 y 19:30–22:00</p>
+            </article>
+            <article class="schedule-card">
+              <h3 class="schedule-card__day">Viernes</h3>
+              <p class="schedule-card__hours">Bar: 7:30 – 00:00</p>
+              <p class="schedule-card__dining">Comedor: 13:00–16:00 y 19:30–23:00</p>
+            </article>
+            <article class="schedule-card">
+              <h3 class="schedule-card__day">Sábado</h3>
+              <p class="schedule-card__hours">Bar: 9:00 – 00:00</p>
+              <p class="schedule-card__dining">Comedor: 13:00–16:00 y 19:30–23:00</p>
+            </article>
+            <article class="schedule-card">
+              <h3 class="schedule-card__day">Domingo</h3>
+              <p class="schedule-card__hours">Bar: 9:00 – 23:00</p>
+              <p class="schedule-card__dining">Comedor: 13:00–16:00 y 19:30–22:00</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nosotros -->
+      <section id="nosotros" class="section section--light" aria-labelledby="nosotros-title">
+        <div class="container about-grid">
+          <div class="about-image">
+            <img
+              src="assets/photos/historia.jpg"
+              alt="Origen del proyecto A Casa dos Caretas"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-text">
+            <span class="section-label">Nuestra historia</span>
+            <h2 id="nosotros-title" class="section-title">De una cuadra a un sueño</h2>
+            <p>
+              A Casa dos Caretas nació en 2021, en plena pandemia, aunque el
+              proyecto no despegó de verdad hasta la primavera de 2022. Lo que
+              empezó como la reforma de una cuadra de animales se convirtió en
+              la puesta en marcha de un sueño familiar.
+            </p>
+            <p>
+              Tras un año de vida en nuestro primer local, llegó el momento de
+              crecer. En 2023 nos trasladamos a un espacio más amplio y moderno,
+              más fiel al proyecto que siempre imaginamos, sin olvidar el rincón
+              donde todo comenzó.
+            </p>
+            <p>
+              Hoy seguimos cocinando con la misma ilusión, agradecidos a todos
+              los que nos acompañan en esta aventura. Y quién sabe… quizá algún
+              día volvamos al lugar de donde venimos.
+            </p>
+            <blockquote class="about-quote">
+              «Onde o pan é arte» — muchos de nuestros platos llevan el pan
+              tradicional de Cea, elaborado artesanalmente por los vecinos de
+              nuestra villa.
+            </blockquote>
+            <p class="about-date">22 de junio de 2023</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menús -->
+      <section id="menus" class="section section--light" aria-labelledby="menus-title">
+        <div class="container">
+          <span class="section-label">Propuestas del día</span>
+          <h2 id="menus-title" class="section-title">Nuestros menús</h2>
+          <p class="section-subtitle">
+            Producto fresco y de proximidad. Todos incluyen pan, bebida, postre
+            y café salvo indicación contraria.
+          </p>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <img
+                class="menu-card__image"
+                src="assets/photos/menu-1.jpg"
+                alt="Menú diario"
+                loading="lazy"
+              />
+              <div class="menu-card__body">
+                <h3 class="menu-card__title">Menú diario</h3>
+                <div class="menu-card__price">15 €</div>
+                <p class="menu-card__desc">
+                  Selección de productos frescos y de cercanía, actualizada cada
+                  día. Primer plato, segundo, postre, café y bebida.
+                </p>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-card__image"
+                src="assets/photos/interior-3.jpg"
+                alt="Menú fin de semana"
+                loading="lazy"
+              />
+              <div class="menu-card__body">
+                <h3 class="menu-card__title">Menú fin de semana</h3>
+                <div class="menu-card__price">23 €</div>
+                <p class="menu-card__desc">
+                  Especialidades de la gastronomía local y nacional para
+                  disfrutar en sábado, domingo y festivos.
+                </p>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-card__image"
+                src="assets/photos/menu-2.jpg"
+                alt="Menú churrasco"
+                loading="lazy"
+              />
+              <div class="menu-card__body">
+                <h3 class="menu-card__title">Menú churrasco diario</h3>
+                <div class="menu-card__price">18 €</div>
+                <p class="menu-card__desc">
+                  Parrillada de ternera: costilla a repetir, criollo, patatas y
+                  ensalada. Pan, bebida, postre y café.
+                </p>
+                <p class="menu-card__note">Disponible de miércoles a domingo</p>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img
+                class="menu-card__image"
+                src="assets/photos/carta-hero.jpg"
+                alt="Menú churrasco fin de semana"
+                loading="lazy"
+              />
+              <div class="menu-card__body">
+                <h3 class="menu-card__title">Menú churrasco fin de semana</h3>
+                <div class="menu-card__price">23 €</div>
+                <p class="menu-card__desc">
+                  Cortes especiales cuidadosamente seleccionados para que los
+                  disfrutes cada fin de semana y festivo.
+                </p>
+                <p class="menu-card__note">Fines de semana y festivos</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carta -->
+      <section id="carta" class="section" aria-labelledby="carta-title">
+        <div class="container">
+          <span class="section-label">Carta completa</span>
+          <h2 id="carta-title" class="section-title">Carta, parrilla y vinos</h2>
+          <p class="section-subtitle">
+            Descubre nuestra carta variada. De miércoles a domingo, disfruta
+            también de nuestro menú especial de parrilla.
+          </p>
+
+          <div class="carta-tabs" role="tablist">
+            <button class="carta-tab is-active" data-tab="carta" role="tab">Carta</button>
+            <button class="carta-tab" data-tab="parrilla" role="tab">Parrilla</button>
+            <button class="carta-tab" data-tab="vinos" role="tab">Carta de vinos</button>
+          </div>
+
+          <div id="panel-carta" class="carta-panel is-active" role="tabpanel">
+            <p class="carta-intro">
+              Encuentra tus platos preferidos en nuestra variada carta. Toca
+              cualquier imagen para ampliarla.
+            </p>
+            <div class="carta-gallery">
+              <img src="img/c1.avif" alt="Carta — página 1" data-lightbox loading="lazy" />
+              <img src="img/c2.avif" alt="Carta — página 2" data-lightbox loading="lazy" />
+              <img src="img/c3.avif" alt="Carta — página 3" data-lightbox loading="lazy" />
+            </div>
+          </div>
+
+          <div id="panel-parrilla" class="carta-panel" role="tabpanel">
+            <p class="carta-intro">
+              De miércoles a domingo, disfruta de nuestro menú especial de
+              parrilla con los mejores cortes a la brasa.
+            </p>
+            <div class="carta-gallery">
+              <img src="img/c4.avif" alt="Carta parrilla — página 1" data-lightbox loading="lazy" />
+              <img src="img/c5.avif" alt="Carta parrilla — página 2" data-lightbox loading="lazy" />
+            </div>
+          </div>
+
+          <div id="panel-vinos" class="carta-panel" role="tabpanel">
+            <p class="carta-intro">
+              Contamos con una amplia selección de vinos. Disfrútalos con
+              nosotros en buena compañía.
+            </p>
+            <div class="carta-gallery">
+              <img src="img/c6.avif" alt="Carta de vinos — página 1" data-lightbox loading="lazy" />
+              <img src="img/c7.avif" alt="Carta de vinos — página 2" data-lightbox loading="lazy" />
+            </div>
+          </div>
+
+          <div class="carta-highlight">
+            <p class="carta-highlight__quote">«Onde o pan é arte»</p>
+            <p class="text-muted">
+              Muchos de nuestros platos se elaboran con el pan tradicional de
+              Cea, hecho a mano por los artesanos de nuestra villa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instalaciones -->
+      <section class="section" aria-labelledby="instalaciones-title">
+        <div class="container">
+          <span class="section-label">El espacio</span>
+          <h2 id="instalaciones-title" class="section-title">Ven a disfrutar</h2>
+          <p class="section-subtitle">
+            Dos terrazas exteriores para los días de sol, y en el interior dos
+            grandes pantallas para seguir la Liga, Champions, F1 y MotoGP.
+          </p>
+          <div class="features-grid">
+            <article class="feature-card">
+              <img src="assets/photos/terraza.jpg" alt="Terraza exterior" loading="lazy" />
+              <div class="feature-card__overlay">
+                <h3 class="feature-card__title">Terrazas</h3>
+                <p class="feature-card__text">
+                  Dos terrazas exteriores para comer al aire libre.
+                </p>
+              </div>
+            </article>
+            <article class="feature-card">
+              <img src="assets/photos/pantallas.jpg" alt="Sala con pantallas" loading="lazy" />
+              <div class="feature-card__overlay">
+                <h3 class="feature-card__title">Deporte en directo</h3>
+                <p class="feature-card__text">
+                  Dos pantallas para disfrutar del fútbol, F1 y MotoGP.
+                </p>
+              </div>
+            </article>
+            <article class="feature-card">
+              <img src="assets/photos/interior-1.jpg" alt="Interior del local" loading="lazy" />
+              <div class="feature-card__overlay">
+                <h3 class="feature-card__title">Comedor</h3>
+                <p class="feature-card__text">
+                  Un espacio acogedor con cocina moderna y ambiente de pueblo.
+                </p>
+              </div>
+            </article>
+            <article class="feature-card">
+              <img src="assets/photos/exterior.jpg" alt="Fachada del restaurante" loading="lazy" />
+              <div class="feature-card__overlay">
+                <h3 class="feature-card__title">En el Camino</h3>
+                <p class="feature-card__text">
+                  En pleno San Cristovo de Cea, en la Vía de la Plata.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instagram -->
+      <section class="instagram-section" aria-labelledby="instagram-title">
+        <div class="instagram-section__bg" aria-hidden="true"></div>
+        <div class="container instagram-section__content">
+          <span class="section-label">Redes sociales</span>
+          <h2 id="instagram-title" class="section-title">Síguenos en Instagram</h2>
+          <p class="section-subtitle" style="margin-inline: auto">
+            Fotos del día, eventos y novedades de la casa.
+          </p>
+          <p class="instagram-handle">@acasadoscaretas</p>
+          <a
+            href="https://www.instagram.com/acasadoscaretas/"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener"
+          >
+            Ver perfil
+          </a>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="section section--light" aria-labelledby="contacto-title">
+        <div class="container">
+          <span class="section-label">Contacto</span>
+          <h2 id="contacto-title" class="section-title">Reservas y ubicación</h2>
+          <p class="section-subtitle">
+            Menús a medida para grupos y celebraciones. Llámanos sin compromiso
+            para gestionar tu reserva.
+          </p>
+
+          <div class="contact-grid">
+            <div>
+              <div class="contact-info">
+                <div class="contact-block">
+                  <div class="contact-block__label">Dirección</div>
+                  <p class="contact-block__value">
+                    San Cristovo de Cea<br />
+                    Rúa España 43<br />
+                    32130 Cea, Ourense
+                  </p>
+                </div>
+                <div class="contact-block">
+                  <div class="contact-block__label">Teléfono</div>
+                  <p class="contact-block__value">
+                    <a href="tel:640966805">640 966 805</a>
+                  </p>
+                </div>
+                <div class="contact-block">
+                  <div class="contact-block__label">Email</div>
+                  <p class="contact-block__value">
+                    <a href="mailto:acasadoscaretas@gmail.com">acasadoscaretas@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="reservas-box">
+                <p>
+                  <strong>¿Grupo grande o menú especial?</strong> Cuéntanos qué
+                  necesitas y te preparamos una propuesta a medida.
+                </p>
+                <a href="tel:640966805" class="btn btn--primary">Llamar para reservar</a>
+              </div>
+            </div>
+
+            <div class="contact-map">
+              <iframe
+                title="Ubicación de A Casa dos Caretas en Google Maps"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=R%C3%BAa+Espa%C3%B1a+43,+32130+San+Cristovo+de+Cea,+Ourense&amp;output=embed&amp;z=15"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <img
+          class="footer__logo"
+          src="img/logo-acdc.png"
+          alt="A Casa dos Caretas"
+        />
+        <p class="footer__text">
+          © A Casa dos Caretas · San Cristovo de Cea, Ourense<br />
+          Gastrobar · Restaurante · Bar
+        </p>
+      </div>
+    </footer>
+
+    <div class="lightbox" role="dialog" aria-label="Imagen ampliada">
+      <button class="lightbox__close" aria-label="Cerrar">&times;</button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
