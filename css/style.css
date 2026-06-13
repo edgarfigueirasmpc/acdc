@@ -401,12 +401,7 @@ button {
   box-shadow: 0 8px 32px rgba(26, 24, 22, 0.08);
   display: flex;
   flex-direction: column;
-}
-
-.menu-card__image {
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  width: 100%;
+  border: 1px solid rgba(26, 24, 22, 0.06);
 }
 
 .menu-card__body {
